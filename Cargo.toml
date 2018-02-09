@@ -1,0 +1,10 @@
+[package]
+name = "ya_os"
+version = "0.1.0"
+authors = [ "Matt Ludwigs" ]
+
+[dependencies]
+rlibc = "1.0"
+
+[lib]
+crate-type = ["staticlib"]
